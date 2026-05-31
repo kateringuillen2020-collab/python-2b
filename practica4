@@ -1,0 +1,16 @@
+print("BIENVENIDO AL CONVERSOR MILLAS A QUILOMETROS")
+
+print("escribe un numero en millas:")
+millas=input()
+
+print("tipo de dato de milla" ,type (millas))
+#convertir de string a millas
+millas=float(millas)
+print("Tipo de datos de millas", type(millas))
+
+
+# 1 milla=1.609 kms
+kilometros = millas *1.609
+
+print("Millas ingresadas:", millas)
+print("kilometros:", kilometros)
