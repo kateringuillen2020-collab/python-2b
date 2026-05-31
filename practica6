@@ -1,0 +1,9 @@
+print("escribe tu nombre:")
+nombre=input()
+
+if nombre == "Katerin":
+    print("saludos Katerin")
+elif nombre == "ana":
+    print("que bonito nombre, ana")
+else:
+    print("QUE EXTRAÑO NOMBRE")
