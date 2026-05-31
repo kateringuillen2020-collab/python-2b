@@ -1,0 +1,13 @@
+#logico Boolean Booleano
+#verdadero/falso
+
+
+numero= 10
+if numero == 10: 
+    print("el numero  SI es 10")
+    print("segunda linea")
+
+else:
+    print("el numero  NO ES 10")
+
+print(" REMINANDO PROGRAMA")    
