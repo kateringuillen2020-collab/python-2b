@@ -1,0 +1,10 @@
+#Soy un comentario
+#strings,cadenas , textos
+#numericos
+
+nombre ="yusara"
+edad= 17
+apellido ="rauda"  
+
+print(nombre, edad, apellido)
+print(type(edad))
