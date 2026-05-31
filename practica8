@@ -1,0 +1,17 @@
+# Funciones pre-definidas: print(), type(), range(), input()
+def saludar(nombre):
+    print("Hola", nombre)
+
+# Celsius a Fahrenheit: (c * 1.8) + 32
+def convertir_a_fahrenheit(c):
+    # ingrese un valor
+    return (c * 1.8) + 32
+
+# Descomenta estas líneas si quieres probar la función saludar
+saludar("Rodrigo")
+saludar("Juan")
+saludar("Sergio")
+
+print(convertir_a_fahrenheit(10))  # Resultado: 50.0
+print(convertir_a_fahrenheit(30))  # Resultado: 86.0
+print(convertir_a_fahrenheit(80))     #resultado 176.0
